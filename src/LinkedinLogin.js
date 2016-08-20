@@ -8,9 +8,7 @@ const {
 } = React;
 const RNLinkedinLogin = NativeModules.LinkedinLogin;
 
-
 class LinkedinLogin {
-
   _accessToken = null;
   _expiresOn = null;
 
